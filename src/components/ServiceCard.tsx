@@ -16,9 +16,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, category,
           <h6 className="card-subtitle mb-2 text-muted">Categoria: {category}</h6>
           <p className="card-text">{description}</p>
           {isAvailable ? (
-            <span className="badge bg-success">Disponível</span>
+            <span className="badge bg-success">Aberto</span>
           ) : (
-            <span className="badge bg-secondary">Indisponível</span>
+            <span className="badge bg-secondary">Fechado</span>
           )}
         </div>
       </div>
